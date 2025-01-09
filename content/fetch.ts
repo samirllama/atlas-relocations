@@ -27,9 +27,19 @@ export const contentGqlFetcher = async <T>({
   const { data, errors } = await res.json()
 
   if (errors) {
-    // do something
+    console.error("Contentful Error Details:", JSON.stringify(errors, null, 2))
+    console.log("Query:", query)
+    console.log("Variables:", variables)
+    console.log("Space ID:", process.env.CONTENTFUL_SPACE_ID)
+    // Don't log the full token for security, just the first few characters
+    console.log(
+      "Access Token (first 6 chars):",
+      process.env.CONTENTFUL_ACCESS_TOKEN?.slice(0, 6),
+    )
     console.log(errors)
-    throw new Error("Could not get content")
+    throw new Error(
+      `Contentful Error: ${errors[0]?.message || "Unknown error"}`,
+    )
   }
 
   return data as T

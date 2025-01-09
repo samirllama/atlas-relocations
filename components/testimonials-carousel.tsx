@@ -5,11 +5,11 @@ import Image from "next/image"
 import Particles from "./particles"
 import Highlighter, { HighlighterItem } from "./highlighter"
 
-import CarouselImg01 from "@/public/images/carousel-icon-01.svg"
-import CarouselImg02 from "@/public/images/carousel-icon-02.svg"
-import CarouselImg03 from "@/public/images/carousel-icon-03.svg"
-import CarouselImg04 from "@/public/images/carousel-icon-04.svg"
-import CarouselImg05 from "@/public/images/carousel-icon-05.svg"
+import TrainIcon01 from "@/public/images/train-icon-01.svg"
+// import CarouselImg02 from "@/public/images/carousel-icon-02.svg"
+// import CarouselImg03 from "@/public/images/carousel-icon-03.svg"
+// import CarouselImg04 from "@/public/images/carousel-icon-04.svg"
+// import CarouselImg05 from "@/public/images/carousel-icon-05.svg"
 
 // Import Swiper
 import Swiper, { Navigation } from "swiper"
@@ -93,7 +93,7 @@ export default function TestimonialsCarousel() {
                     <div className="flex flex-col p-6 h-full">
                       <Image
                         className="mb-3"
-                        src={CarouselImg01}
+                        src={TrainIcon01}
                         width={56}
                         height={56}
                         alt="Icon 01"
@@ -139,7 +139,7 @@ export default function TestimonialsCarousel() {
                     <div className="flex flex-col p-6 h-full">
                       <Image
                         className="mb-3"
-                        src={CarouselImg02}
+                        src={TrainIcon01}
                         width={56}
                         height={56}
                         alt="Icon 01"
@@ -185,7 +185,7 @@ export default function TestimonialsCarousel() {
                     <div className="flex flex-col p-6 h-full">
                       <Image
                         className="mb-3"
-                        src={CarouselImg03}
+                        src={TrainIcon01}
                         width={56}
                         height={56}
                         alt="Icon 01"
@@ -231,7 +231,7 @@ export default function TestimonialsCarousel() {
                     <div className="flex flex-col p-6 h-full">
                       <Image
                         className="mb-3"
-                        src={CarouselImg04}
+                        src={TrainIcon01}
                         width={56}
                         height={56}
                         alt="Icon 01"
@@ -277,7 +277,7 @@ export default function TestimonialsCarousel() {
                     <div className="flex flex-col p-6 h-full">
                       <Image
                         className="mb-3"
-                        src={CarouselImg05}
+                        src={TrainIcon01}
                         width={56}
                         height={56}
                         alt="Icon 05"

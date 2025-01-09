@@ -2,14 +2,14 @@ import Image from "next/image"
 import Particles from "./particles"
 import Highlighter, { HighlighterItem } from "./highlighter"
 
-import FeatureImg01 from "@/public/images/feature-image-01.png"
-import FeatureImg02 from "@/public/images/feature-image-02.png"
-import FeatureImg03 from "@/public/images/feature-image-03.png"
+import CargoImg01 from "@/public/images/cargo-pic-1.jpg"
+import CargoImg02 from "@/public/images/cargo-pic-2.jpg"
+import CargoImg03 from "@/public/images/container-1.jpg"
 
 export default function Features02() {
   return (
     <section className="relative">
-      {/* Particles animation */}
+      s{/* Particles animation */}
       <div className="absolute left-1/2 -translate-x-1/2 top-0 -z-10 w-80 h-80 -mt-24 -ml-32">
         <Particles
           className="absolute inset-0 -z-10"
@@ -17,7 +17,6 @@ export default function Features02() {
           staticity={30}
         />
       </div>
-
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-16 md:pt-32">
           {/* Section header */}
@@ -143,7 +142,7 @@ export default function Features02() {
                       <div className="relative w-full h-64 md:h-auto overflow-hidden">
                         <Image
                           className="absolute bottom-0 left-1/2 -translate-x-1/2 mx-auto max-w-none md:relative md:left-0{md}transla{}-x-0"
-                          src={FeatureImg01}
+                          src={CargoImg01}
                           width="504"
                           height="400"
                           alt="Feature 01"
@@ -181,7 +180,7 @@ export default function Features02() {
                       <div className="relative w-full h-64 md:h-auto overflow-hidden md:pb-8">
                         <Image
                           className="absolute bottom-0 left-1/2 -translate-x-1/2 mx-auto max-w-none md:max-w-full md:relative md:left-0 md:translate-x-0"
-                          src={FeatureImg02}
+                          src={CargoImg02}
                           width={536}
                           height={230}
                           alt="Feature 02"

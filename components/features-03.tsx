@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Highlighter, { HighlighterItem } from "./highlighter"
 
-import FeatureImg04 from "@/public/images/feature-image-04.png"
+import Container1 from "@/public/images/container-1.jpg"
 
 export default function Features03() {
   return (
@@ -60,7 +60,7 @@ export default function Features03() {
                       <div className="absolute inset-0 translate-z-0 bg-purple-500 rounded-full blur-[120px]" />
                     </div>
                     <Image
-                      src={FeatureImg04}
+                      src={Container1}
                       width={768}
                       height={400}
                       alt="Feature 04"
