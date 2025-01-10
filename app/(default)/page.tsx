@@ -17,7 +17,7 @@ import Cta from "@/components/cta"
 export default function Home() {
   return (
     <>
-      <Hero />w
+      <Hero />
       <LogoWall />
       <Features />
       <Features02 />
