@@ -41,16 +41,17 @@ export default function Cta() {
           <div className="max-w-3xl mx-auto text-center">
             <div>
               <div className="inline-flex font-medium bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-purple-200 pb-3">
-                The security first platform
+                The stress-free relocation specialists
               </div>
             </div>
             <h2 className="h2 bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
-              Take control of your business
+              Moving Forward with Confidence
             </h2>
             <p className="text-lg text-slate-400 mb-8">
-              All the lorem ipsum generators on the Internet tend to repeat
-              predefined chunks as necessary, making this the first true
-              generator on the Internet.
+              One Stop Solution To All Your Packing And Moving Needs.
+              Transforming the complexities of relocation into seamless
+              transitions, with over four decades of trusted expertise in
+              international and domestic moving solutions.
             </p>
             <div>
               <a

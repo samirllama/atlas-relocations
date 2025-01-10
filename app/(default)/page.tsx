@@ -3,6 +3,7 @@ export const metadata = {
   description: "Page description",
 }
 
+import HeroStatic from "@/components/hero-static"
 import Hero from "@/components/hero"
 import LogoWall from "@/components/logo-wall"
 import Features from "@/components/features"
@@ -17,15 +18,7 @@ import Cta from "@/components/cta"
 export default function Home() {
   return (
     <>
-      <Hero />
-      <LogoWall />
-      <Features />
-      <Features02 />
-      <Features03 />
-      <TestimonialsCarousel />
-      <Features04 />
-      <Pricing />
-      <Testimonials />
+      <HeroStatic />
       <Cta />
     </>
   )

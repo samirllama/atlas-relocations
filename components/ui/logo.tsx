@@ -1,17 +1,17 @@
 import Link from "next/link"
 import Image from "next/image"
-import LogoImg from "@/public/images/air-one.svg"
+import AirLogo from "@/public/images/air.svg"
 
 export default function Logo() {
   return (
-    <Link className="inline-flex" href="/" aria-label="Cruip">
+    <Link className="inline-flex" href="/" aria-label="AirLogo">
       <Image
         className="max-w-none"
-        src={LogoImg}
+        src={AirLogo}
         width={38}
         height={38}
         priority
-        alt="Stellar"
+        alt="Air Logo"
       />
     </Link>
   )
